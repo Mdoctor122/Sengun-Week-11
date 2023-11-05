@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyOnePrefab: {fileID: 383031134104144914, guid: 1aa3ce041009c1c4c848b1cf978c80ab, type: 3}
   enemyTwoPrefab: {fileID: 8544337850247924563, guid: 0223d8c3e338db546ae9dba59b0c43ed, type: 3}
+  enemyThreePrefab: {fileID: 5872456800175309454, guid: 85f81eabd6b647f4185ed16f6a3290d2, type: 3}
 --- !u!4 &620213382
 Transform:
   m_ObjectHideFlags: 0
@@ -391,7 +392,8 @@ MonoBehaviour:
   horizontalInput: 0
   verticalInput: 0
   horizontalScreenLimit: 0
-  verticalScreenLimit: 0
+  middleScreen: 0
+  bottomScreen: 0
   bulletPrefab: {fileID: 5231436695550271503, guid: 1838de791c6fbb144997bffe22b48abe, type: 3}
 --- !u!65 &1759166529
 BoxCollider:
